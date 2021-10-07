@@ -19,7 +19,7 @@ class AddScore extends LogicNode {
 
     override function run(from:Int) {
         var name:String = inputs[1].get();
-        var score:Float = inputs[2].get();
+        var score:Int = inputs[2].get();
 
         var user:User = {
             username: name,
